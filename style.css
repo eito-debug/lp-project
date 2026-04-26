@@ -196,3 +196,53 @@
     padding: 24px;
     font-size: 14px;
   }
+  /* ==================
+   レスポンシブデザイン
+   ================== */
+
+/* タブレット（768px以下） */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* スマホ（480px以下） */
+@media (max-width: 480px) {
+  .hero {
+    padding: 60px 16px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero-desc {
+    font-size: 15px;
+  }
+
+  .btn {
+    padding: 14px 28px;
+    font-size: 15px;
+  }
+
+  .features {
+    padding: 48px 16px;
+  }
+
+  .features h2 {
+    font-size: 24px;
+  }
+
+  .contact {
+    padding: 48px 16px;
+  }
+
+  .contact h2 {
+    font-size: 24px;
+  }
+}
